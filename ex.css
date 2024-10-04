@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@media all and (min-width:320px){
+.d1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+}
+.d1{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  
+  height: 100vh;
+  width: 100vw;
+ 
+
+}
+.a1{
+    border: 2px solid #000000;
+    display: inline;
+    width: 200px;
+    height: 230px;
+    border: none; 
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+.d2{
+    border: 2px solid black;
+    display: inline;
+    width: 200px;
+    height: 230px;
+    border: none;
+    margin-bottom: 40px;
+    padding-top: 40px;
+}
+.d3{
+    border: 2px solid black;
+    display: inline;
+    width: 200px;
+    height: 230px;
+    border: none;
+    margin-bottom: 40px;
+    padding-top: 40px;
+}
+.d4{
+    border: 2px solid black;
+    display: inline;
+    width: 200px;
+    height: 230px;
+    border: none;
+    margin-bottom: 60px;
+    padding-top: 40px;
+}
+.a1 .a2{
+    font-size: 26px;
+    display: block;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight:bold;
+    /* color: rgba(0, 0, 0, 0.606); */
+    color: rgb(192, 8, 8);
+}
+.a1 .a3{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 18px;
+    color: rgba(0, 0, 0, 0.606);
+    font-family: "Poppins", sans-serif;
+    
+}
+.a1 .a4{
+    outline-color: crimson;
+    height: 28px;
+    width: 190px;
+    color: darkmagenta;
+    margin-bottom: 15px;
+    /* padding-left: 15px; */
+    display: block;
+    border-radius: 15px;
+    text-align:center;
+    border: none;
+}
+.a4::placeholder{
+    color: rgb(22, 163, 116);
+    font-family: "Poppins", sans-serif;
+}
+.a4:hover{
+    cursor: grab;
+    background-color: azure;
+    border-color: blueviolet;
+}
+.a1 .a5{
+    font-size: 16px;
+    padding: 5px 7px 5px 7px;
+    border-radius: 15px;
+    background-color: rgba(94, 8, 174, 0.647);
+    color: white;
+    /* border-color: white; */
+    font-family: "Poppins", sans-serif;
+    width: 115px;
+    margin-left: 30px;
+    border: none;
+}
+.a5:hover{
+    cursor:pointer;
+    background-color: violet;
+    border-color: turquoise;
+}
+.d2 .a6{
+    font-size: 26px;
+    display: block;
+    margin-bottom: 20px;   
+    font-family: "Poppins", sans-serif;
+    font-weight: 550;
+    /* color: rgba(0, 0, 0, 0.606); */
+    color: rgb(192, 8, 8);
+}
+.a2:hover{
+    cursor: pointer;
+    color: rgb(35, 35, 216);   
+}
+.a2::selection{
+    background-color: yellow;
+}
+
+
+.d2:hover{
+    cursor:grab;
+    color: white;
+    background-color: rgb(237, 100, 164);
+}
+.d3:hover{
+    cursor: pointer;
+    color: crimson;
+}
+.d4:hover{
+    cursor: grab;
+    color: white;
+    background-color: turquoise;
+}
+li{
+    list-style: none;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;
+    /* color: rgba(128, 128, 128, 0.831); */
+    color: rgba(0, 0, 0, 0.606);
+    /* font-weight:bold; */
+}
+.d3 .a7{
+    font-size: 26px;
+    display: block;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 550;   
+    /* color: rgba(0, 0, 0, 0.606); */
+    color: rgb(192, 8, 8);
+}
+.d4 .a8{
+    font-size: 25px;
+    display: block;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 550;     
+    /* color: rgba(0, 0, 0, 0.606); */
+    color:  rgb(192, 8, 8);
+}
+.face{
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 6px;
+    font-size: 20px;
+    /* color: rgba(128, 128, 128, 0.831); */
+    border-color: rgba(157, 23, 23, 0.68);
+    color: rgba(0, 0, 0, 0.606);
+}
+.twit{
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 6px;
+    font-size: 20px;
+    border-color: rgba(157, 23, 23, 0.68);
+    color: rgba(0, 0, 0, 0.606);
+    /* color: rgba(128, 128, 128, 0.831); */
+}
+.link{
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 6px;
+    font-size: 20px;
+    border-color: rgba(157, 23, 23, 0.68);
+    color: rgba(0, 0, 0, 0.606);
+    /* color: rgba(128, 128, 128, 0.831); */
+}
+.print{
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 6px;
+    font-size: 20px;
+    border-color: rgba(157, 23, 23, 0.68);
+    color: rgba(0, 0, 0, 0.606);
+    /* color: rgba(128, 128, 128, 0.831); */
+}
+
+
